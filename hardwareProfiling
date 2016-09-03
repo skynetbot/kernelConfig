@@ -1,7 +1,7 @@
 Example of a Dell 780 Hardware Profile
 The following was generated running
 #lspci -v
-
+Make sure you compare with your hardware and make neccesary modifications to your kernel config
 
 00:00.0 Host bridge: Intel Corporation 4 Series Chipset DRAM Controller (rev 03)
 00:01.0 PCI bridge: Intel Corporation 4 Series Chipset PCI Express Root Port (rev 03) (prog-if 00 [Normal decode])
