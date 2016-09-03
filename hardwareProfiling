@@ -1,0 +1,62 @@
+Example of a Dell 780 Hardware Profile
+The following was generated running
+#lspci -v
+
+
+00:00.0 Host bridge: Intel Corporation 4 Series Chipset DRAM Controller (rev 03)
+00:01.0 PCI bridge: Intel Corporation 4 Series Chipset PCI Express Root Port (rev 03) (prog-if 00 [Normal decode])
+        Kernel driver in use: pcieport
+        
+00:02.0 VGA compatible controller: Intel Corporation 4 Series Chipset Integrated Graphics Controller (rev 03) (prog-if 00 [VGA controller])
+        Kernel modules: i915
+        
+00:02.1 Display controller: Intel Corporation 4 Series Chipset Integrated Graphics Controller (rev 03)
+00:19.0 Ethernet controller: Intel Corporation 82567LM-3 Gigabit Network Connection (rev 02)
+        Kernel driver in use: e1000e
+        Kernel modules: e1000e
+
+00:1a.0 USB controller: Intel Corporation 82801JD/DO (ICH10 Family) USB UHCI Controller #4 (rev 02) (prog-if 00 [UHCI])
+        Kernel driver in use: uhci_hcd
+
+00:1a.1 USB controller: Intel Corporation 82801JD/DO (ICH10 Family) USB UHCI Controller #5 (rev 02) (prog-if 00 [UHCI])
+        Kernel driver in use: uhci_hcd
+
+00:1a.2 USB controller: Intel Corporation 82801JD/DO (ICH10 Family) USB UHCI Controller #6 (rev 02) (prog-if 00 [UHCI])
+        Kernel driver in use: uhci_hcd
+
+00:1a.7 USB controller: Intel Corporation 82801JD/DO (ICH10 Family) USB2 EHCI Controller #2 (rev 02) (prog-if 20 [EHCI])
+        Kernel driver in use: ehci-pci
+
+00:1b.0 Audio device: Intel Corporation 82801JD/DO (ICH10 Family) HD Audio Controller (rev 02)
+        Kernel driver in use: snd_hda_intel
+        Kernel modules: snd_hda_intel
+
+00:1c.0 PCI bridge: Intel Corporation 82801JD/DO (ICH10 Family) PCI Express Port 1 (rev 02) (prog-if 00 [Normal decode])
+        Kernel driver in use: pcieport
+
+00:1c.1 PCI bridge: Intel Corporation 82801JD/DO (ICH10 Family) PCI Express Port 2 (rev 02) (prog-if 00 [Normal decode])
+        Kernel driver in use: pcieport
+
+00:1d.0 USB controller: Intel Corporation 82801JD/DO (ICH10 Family) USB UHCI Controller #1 (rev 02) (prog-if 00 [UHCI])
+        Kernel driver in use: uhci_hcd
+
+00:1d.1 USB controller: Intel Corporation 82801JD/DO (ICH10 Family) USB UHCI Controller #2 (rev 02) (prog-if 00 [UHCI])
+        Kernel driver in use: uhci_hcd
+
+00:1d.2 USB controller: Intel Corporation 82801JD/DO (ICH10 Family) USB UHCI Controller #3 (rev 02) (prog-if 00 [UHCI])
+        Kernel driver in use: uhci_hcd
+
+00:1d.7 USB controller: Intel Corporation 82801JD/DO (ICH10 Family) USB2 EHCI Controller #1 (rev 02) (prog-if 20 [EHCI])
+        Kernel driver in use: ehci-pci
+
+00:1e.0 PCI bridge: Intel Corporation 82801 PCI Bridge (rev a2) (prog-if 01 [Subtractive decode])
+
+00:1f.0 ISA bridge: Intel Corporation 82801JDO (ICH10DO) LPC Interface Controller (rev 02)
+        Kernel modules: lpc_ich
+
+00:1f.2 RAID bus controller: Intel Corporation SATA Controller [RAID mode] (rev 02)
+        Kernel driver in use: ahci
+        Kernel modules: ahci
+
+00:1f.3 SMBus: Intel Corporation 82801JD/DO (ICH10 Family) SMBus Controller (rev 02)
+        Kernel modules: i2c_i801
