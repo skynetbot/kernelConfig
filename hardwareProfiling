@@ -1,4 +1,4 @@
-Example of a Dell 780 Hardware Profile
+Example of a Dell Optiplex 780 Hardware Profile
 The following was generated running
 #lspci -v
 Make sure you compare with your hardware and make neccesary modifications to your kernel config
